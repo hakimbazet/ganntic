@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { LayoutList } from "lucide-react";
+import { LayoutList, ArrowRight } from "lucide-react";
 import { FileUploader } from "./components/FileUploader";
 import { ColumnMapper, GanttTask } from "./components/ColumnMapper";
 import { GanttView } from "./components/gantt";
@@ -120,6 +120,19 @@ export default function Home() {
                 Upload any Excel file, map your columns, and transform raw data
                 into a beautiful, exportable Gantt chart in seconds.
               </p>
+              <p className="mt-3 text-sm text-[var(--text-muted)] max-w-lg mx-auto leading-relaxed">
+                The simplest way to manage projects, track deadlines, and keep
+                your team organized — no signup required.
+              </p>
+              <div className="mt-5">
+                <a
+                  href="/getting-started/"
+                  className="inline-flex items-center gap-1.5 text-xs font-mono text-[var(--copper)] hover:text-[var(--copper-light)] transition-colors"
+                >
+                  <ArrowRight className="h-3 w-3" />
+                  New here? Read the guide
+                </a>
+              </div>
             </div>
           </div>
         )}
