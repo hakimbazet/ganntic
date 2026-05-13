@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg { fill: #b8653e; }
+      .fg { fill: #f8f6f2; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #c2785a; }
+        .fg { fill: #0c0c0f; }
+      }
+    </style>
+  </defs>
+
+  <!-- Copper rounded square -->
+  <rect class="bg" x="4" y="4" width="56" height="56" rx="14"/>
+
+  <!-- Geometric "G" lettermark built from rounded bars -->
+  <rect class="fg" x="15" y="14" width="34" height="10" rx="4"/>
+  <rect class="fg" x="15" y="14" width="10" height="36" rx="4"/>
+  <rect class="fg" x="15" y="40" width="30" height="10" rx="4"/>
+  <rect class="fg" x="36" y="27" width="13" height="10" rx="4"/>
+</svg>
