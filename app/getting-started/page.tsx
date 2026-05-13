@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Getting Started | Ganttic",
+  title: "Getting Started | GanttSheet",
 };
 
 export default function GettingStartedPage() {
@@ -38,7 +38,7 @@ export default function GettingStartedPage() {
                 </span>
               </div>
               <span className="font-heading text-2xl tracking-wide text-[var(--text-main)]">
-                Ganttic
+                GanttSheet
               </span>
             </Link>
             <Link
@@ -318,7 +318,7 @@ export default function GettingStartedPage() {
         {/* Footer */}
         <footer className="border-t border-[var(--border)] px-6 lg:px-12 py-6">
           <div className="max-w-3xl mx-auto flex items-center justify-between text-xs text-[var(--text-muted)] font-mono">
-            <span>Ganttic — Excel to Gantt</span>
+            <span>GanttSheet — Excel to Gantt</span>
             <span>Built with Next.js & Tailwind</span>
           </div>
         </footer>

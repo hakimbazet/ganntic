@@ -19,7 +19,7 @@ There is **no test runner** configured (`npm test` will fail). No typecheck scri
 ## Architecture
 
 - **Entry page**: `app/page.tsx` (client component; imports from `app/components/`)
-- **Layout**: `app/layout.tsx` with hardcoded `SITE_URL = "https://ganttic.app"` and inline JSON-LD schema
+- **Layout**: `app/layout.tsx` with hardcoded `SITE_URL = "https://ganttsheet.netlify.app"` and inline JSON-LD schema
 - **UI components**: `components/ui/` (shadcn/ui, installed with `base-nova` style)
 - **Utils**: `lib/utils.ts` exports `cn(...)` for `clsx` + `tailwind-merge`
 - **Path alias**: `@/*` maps to `./*`
@@ -28,7 +28,7 @@ There is **no test runner** configured (`npm test` will fail). No typecheck scri
 
 - Uses `@tailwindcss/postcss` (v4), **not** `@tailwindcss/vite` or classic `tailwind.config.js`
 - Theme tokens and light/dark modes are defined manually in `app/globals.css` via `@theme inline` and CSS custom properties
-- Dark mode is class-based (`dark` class on `<html>`), toggled via localStorage key `ganttic-theme`
+- Dark mode is class-based (`dark` class on `<html>`), toggled via localStorage key `ganntsheet-theme`
 - Custom animations (`animate-fade-up`, `animate-scale-in`, etc.) and scrollbars are defined in `globals.css`
 
 ## Build quirks

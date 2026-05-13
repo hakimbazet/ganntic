@@ -19,14 +19,14 @@ const dmSerif = DM_Serif_Display({
   weight: "400",
 });
 
-const SITE_URL = "https://ganttic.app";
-const DOMAIN = "ganttic.app";
+const SITE_URL = "https://ganttsheet.netlify.app";
+const DOMAIN = "ganttsheet.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Ganttic — Free Excel to Gantt Chart Converter Online",
-    template: "%s | Ganttic",
+    default: "GanttSheet — Free Excel to Gantt Chart Converter Online",
+    template: "%s | GanttSheet",
   },
   description:
     "Turn Excel spreadsheets into beautiful, interactive Gantt charts. Upload .xlsx files, map columns, and visualize project timelines instantly. Export as PNG. Free & no signup required.",
@@ -46,15 +46,15 @@ export const metadata: Metadata = {
     "xls to gantt",
     "xlsx to gantt",
   ],
-  applicationName: "Ganttic",
-  authors: [{ name: "Ganttic" }],
+  applicationName: "GanttSheet",
+  authors: [{ name: "GanttSheet" }],
   generator: "Next.js",
   openGraph: {
     type: "website",
     url: SITE_URL,
-    siteName: "Ganttic",
+    siteName: "GanttSheet",
     locale: "en_US",
-    title: "Ganttic — Free Excel to Gantt Chart Converter",
+    title: "GanttSheet — Free Excel to Gantt Chart Converter",
     description:
       "Turn Excel spreadsheets into beautiful, interactive Gantt charts. Upload .xlsx files, map columns, and visualize project timelines instantly.",
     images: [
@@ -62,13 +62,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ganttic - Excel to Gantt Chart Converter",
+        alt: "GanttSheet - Excel to Gantt Chart Converter",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ganttic — Free Excel to Gantt Chart Converter",
+    title: "GanttSheet — Free Excel to Gantt Chart Converter",
     description:
       "Turn Excel spreadsheets into beautiful, interactive Gantt charts in seconds.",
     images: ["/og-image.jpg"],
@@ -113,7 +113,7 @@ export const viewport: Viewport = {
 const schemaScript = JSON.stringify({
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "Ganttic",
+  name: "GanttSheet",
   url: SITE_URL,
   description:
     "Free online tool that converts Excel spreadsheets into interactive Gantt charts.",
@@ -146,7 +146,7 @@ const schemaScript = JSON.stringify({
 const themeScript = `
   (function() {
     try {
-      const saved = localStorage.getItem('ganttic-theme');
+      const saved = localStorage.getItem('ganntsheet-theme');
       const isDark = saved === 'dark';
       if (isDark) {
         document.documentElement.classList.add('dark');

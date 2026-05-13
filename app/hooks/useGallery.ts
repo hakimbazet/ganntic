@@ -11,7 +11,7 @@ export interface GalleryItem {
   updatedAt: string;
 }
 
-const STORAGE_KEY = "ganttic-gallery";
+const STORAGE_KEY = "ganntsheet-gallery";
 
 function loadGallery(): GalleryItem[] {
   if (typeof window === "undefined") return [];

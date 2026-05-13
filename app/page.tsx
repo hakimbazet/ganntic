@@ -77,7 +77,7 @@ export default function Home() {
                 </span>
               </div>
               <span className="font-heading text-2xl tracking-wide text-[var(--text-main)]">
-                Ganttic
+                GanttSheet
               </span>
             </div>
             <div className="flex items-center gap-3">
@@ -237,7 +237,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="border-t border-[var(--border)] px-6 lg:px-12 py-6">
           <div className="max-w-7xl mx-auto flex items-center justify-between text-xs text-[var(--text-muted)] font-mono">
-            <span>Ganttic — Excel to Gantt</span>
+            <span>GanttSheet — Excel to Gantt</span>
           </div>
         </footer>
       </main>

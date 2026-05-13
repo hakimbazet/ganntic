@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/private/", "/admin/"],
       },
     ],
-    sitemap: "https://ganttic.app/sitemap.xml",
+    sitemap: "https://ganttsheet.netlify.app/sitemap.xml",
   };
 }

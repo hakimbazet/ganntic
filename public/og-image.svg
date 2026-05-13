@@ -7,7 +7,7 @@
       <stop offset="100%" stop-color="#0c0c0f" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <text x="80" y="280" font-family="Georgia, serif" font-size="120" fill="#edeae4" font-weight="bold">Ganttic</text>
+  <text x="80" y="280" font-family="Georgia, serif" font-size="120" fill="#edeae4" font-weight="bold">GanttSheet</text>
   <text x="80" y="360" font-family="monospace" font-size="36" fill="#9b958a">Free Excel to Gantt Chart Converter</text>
   <text x="80" y="420" font-family="monospace" font-size="24" fill="#7a756b">Upload .xlsx  ·  Map columns  ·  Visualize timelines  ·  Export PNG</text>
   <rect x="80" y="460" width="120" height="4" fill="#c2785a" rx="2"/>

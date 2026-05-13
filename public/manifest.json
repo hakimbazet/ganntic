@@ -1,6 +1,6 @@
 {
-  "name": "Ganttic — Excel to Gantt Chart",
-  "short_name": "Ganttic",
+  "name": "GanttSheet — Excel to Gantt Chart",
+  "short_name": "GanttSheet",
   "description": "Convert Excel spreadsheets into interactive Gantt charts",
   "start_url": "/",
   "display": "standalone",
